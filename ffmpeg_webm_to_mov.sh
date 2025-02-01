@@ -20,7 +20,7 @@ echo You chose $choice
 
 echo 'Please specify video file to be converted (include file type)'
 
-input=$(find /home/robert/Videos -type f | fzf) 
+input=$(find ~/Videos -type f | fzf) 
 
 echo 'Please specify output file name'
 
