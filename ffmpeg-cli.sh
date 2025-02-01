@@ -1,7 +1,6 @@
-!/bin/bash
+#!/usr/bin/env bash
 
-# Script to ask use for file name of video to be converted (webm)
-# And name of the output (mov)
+# Script to convert video files using ffmpeg
 
 echo 'Choose conversion type:'
 
