@@ -25,4 +25,4 @@ echo 'Please specify output file name'
 
 read output
 
-ffmpeg -i $input -c:v $selected $output$filetype
+ffmpeg -i "$input" -c:v $selected "$output$filetype"
